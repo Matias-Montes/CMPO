@@ -23,7 +23,7 @@ export const Categories = () => {
   return (
     <div className='w-100 product-container'>
 
-        <h3 className='product-tittles text-center mb-4 p-2'><strong> NUESTROS PRODUCTOS </strong> </h3>
+        <h2 className='product-tittles text-center mb-4 p-2'><strong> NUESTROS PRODUCTOS </strong> </h2>
 
         <div className='d-flex w-100 flex-column justify-content-center aling-items-center'>
         
