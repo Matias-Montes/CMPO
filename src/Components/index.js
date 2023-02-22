@@ -1,0 +1,9 @@
+export { Footer } from "./Footer";
+export { NavBar } from "./NavBar";
+export { Slider } from "./Slider";
+export { MainImg } from "./MainImg";
+export { MainCards } from "./MainCards";
+export { MainCategories } from "./MainCategories";
+export { Cards } from "./Cards"
+export { ProductCard } from './ProductCard'
+export { Loading } from './Loading'

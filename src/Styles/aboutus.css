@@ -1,0 +1,30 @@
+.aboutus-article_text {
+    color: aliceblue;
+}
+
+.aboutus-div_text {
+    width: 50%;
+}
+
+.aboutus-div_img {
+    width: 50%;
+}
+
+.aboutus-article {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 991px) {
+    .aboutus-div_text {
+        width: 100%;
+    }
+    
+    .aboutus-div_img {
+        width: 100%;
+    }
+    
+    .aboutus-article {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: Montserrat ;    
+} 
+
+body {
+    background-color: #212529;
+}
+
+.navbar-logo_text {
+    color: white;  
+    text-transform: capitalize;  
+    padding: 0;
+    margin: 0;
+    font-size: small;
+}
+
+.navbar-logo_img {
+    height: 70px;
+}
+
+.navbar-link_container {
+    width: 100%;
+    display: flex;
+    justify-content: end;   
+}
+
+.navbar-link_item {
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+
+.navbar-link_item:hover {
+    color: rgba(139, 255, 255, 0.719);
+}
+
+.navbar-link_item-selected {
+    color: #83c1d9 !important; 
+}
+
+
+
+
+@media screen and (max-width: 991px) {
+    .navbar-link_container{
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .navbar-toggle {
+        background-color: aliceblue;
+        border: 3px solid #83c1d9 !important;
+    }
+}

@@ -1,0 +1,50 @@
+.contact-form label {
+    color:white ;
+}
+
+.contact-article p{
+    color: aliceblue;
+}
+
+.contact-article {
+    width: 50%;
+}
+
+.contact-article p {
+    text-transform: uppercase;
+}
+
+.contact-form {
+    width: 50%;
+}
+
+.contact-div {
+    flex-direction: row;
+}
+
+.contact-form_btn {
+    background-color: #83c1d9;
+    font-size: large;
+    font-weight: 800;
+    border: 5px double aliceblue;
+}
+
+.contact-form_btn:hover {
+    background-color: aliceblue;
+    color: #212529;
+    border: 5px double #83c1d9;
+}
+
+@media screen and (max-width: 991px) {
+    .contact-article {
+        width: 100%;
+    }
+    
+    .contact-form {
+        width: 100%;
+    }
+    
+    .contact-div {
+        flex-direction: column;
+    }
+}

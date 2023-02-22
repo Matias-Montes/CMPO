@@ -1,0 +1,150 @@
+.footer-top {
+    display: block;
+    background-color: rgb(131,193,217);
+    height: 15px;
+}
+.footer-container {
+    flex-direction: row;
+    padding: 20px;
+}
+
+.footer-container_left {
+    width: 65%
+}
+
+.footer-container_rigth {
+    width: 35%;
+}
+
+.footer-data-logo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-data_img {
+    margin: 10px;
+}
+.footer-logo-expand {
+    display: flex;
+}
+
+.footer-text {    
+    color: aliceblue;
+    font-size: 1.23rem;
+    text-transform: uppercase;
+}
+
+.footer-data_text {
+    width: 50%;
+}
+
+.footer-contact-text {
+    width: 75%;
+} 
+
+.footer-icons {
+    width: 25%;
+}
+
+.footer-logo_text {
+    text-transform: capitalize;
+    font-size: x-large;
+    color: aliceblue;
+}
+
+.logo-text_blue {
+    color: rgb(131,193,217);
+}
+
+.footer-icon {
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.footer-icon:hover {
+    box-shadow: 5px 5px 5px 0px rgba(131,193,217,.75);
+-webkit-box-shadow: 5px 5px 5px 0px rgba(131,193,217,.75);
+-moz-box-shadow: 5px 5px 5px 0px rgba(131,193,217,.75);
+}
+
+@media screen and (max-width: 1155px) {
+    .footer-container {
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footer-container_left {
+        width: 100%
+    }
+    
+    .footer-container_rigth {        
+        width: 100%;     
+
+    }
+    
+    .footer-data-logo {
+        width: 50%;
+    }
+
+    .footer-data_text {
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-contact-text {
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    } 
+
+    .footer-icons {        
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+ 
+    
+}
+
+
+@media screen and (max-width: 794px) {
+    .footer-container_left {
+        flex-direction: column;
+    }
+    
+    .footer-container_rigth {        
+        flex-direction: column;
+
+    }
+    .footer-data-logo {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .footer-data_text {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .footer-contact-text {
+
+        width: 100%;
+        margin: 10px;
+    } 
+
+    .footer-icons {        
+            
+        width: 100%;
+        
+    }
+
+}
+
+@media screen and (max-width: 402px) {
+    .footer-logo-expand {
+        display: none;
+    }
+}

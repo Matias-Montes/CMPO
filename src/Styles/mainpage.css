@@ -1,0 +1,180 @@
+.main-carousel_text {
+    top: 15%;
+}
+
+.main-carousel_text h3 {
+    color: #83c1d9;
+    text-transform: uppercase   ;
+    font-size: 500%;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);;
+}
+
+.main-carousel_text p {
+    font-size: 270%;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);;
+}
+
+.maincards-tittle {
+    padding: 10px;
+    background-color: #83c1d9;
+    font-weight: 800;
+}
+
+.maincards-container {    
+    height: 60vh;
+}
+
+.maincards-card_container {
+    width: 250px;
+    background: rgb(131,193,217);
+    background: linear-gradient(0deg, rgba(131,193,217,1) 0%, rgba(255,255,255,1) 59%);
+    border: 1px solid black;
+    border-radius: 100%;    
+}
+
+.maincards-card_container:hover {
+    cursor: pointer;
+    animation-name: transform-scuare;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    border: 5px solid #83c1d9;
+     
+}
+
+
+.maincard-card_click {
+    color: #212529;
+    position: relative;
+    border-top: 1px solid #212529;
+    border-bottom: 1px solid #212529;
+    background-color: aliceblue;
+    opacity: .5;
+    font-weight: 800;
+    font-size: larger;
+    animation-name: move-down;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+.maincard-card_text {
+    background-color: #83c1d9;
+    border-top: 1px solid #212529;
+    border-bottom: 1px solid #212529;
+}
+
+.maincard-card_button {
+    color: white;
+    background-color: #212529;
+}
+
+.maincard-card_button:hover {
+    background-color: #3b3e41;
+    border: 5px solid #83c1d9;
+}
+
+.maincard-category_text {
+    position: relative;
+    top: -80px;
+    border-top: 1px solid #212529;
+    border-bottom: 1px solid #212529;
+    background-color: aliceblue;
+    font-weight: 800;
+    font-size: larger;
+}
+
+.main-category_link {
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 1191px) {
+    .maincards-container{
+        height: auto;
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+    .main-carousel_text h3 {
+        font-size: 400%;
+       
+    }
+    
+    .main-carousel_text p {
+        font-size: 230%;
+       
+    }
+
+
+}
+
+@media screen and (max-width: 720px) {
+    .main-carousel_text h3 {
+        font-size: 300%;
+       
+    }
+    
+    .main-carousel_text p {
+        font-size: 170%;
+       
+    }
+    
+}
+
+@media screen and (max-width: 520px) {
+    .main-carousel_text h3 {
+        font-size: 200%;
+       
+    }
+    
+    .main-carousel_text p {
+        font-size: 110%;
+       
+    }
+    
+}
+
+@media screen and (max-width: 301px) {
+    .main-carousel_text h3 {
+        font-size: 150%;
+       
+    }
+    
+    .main-carousel_text p {
+        font-size: 90%;
+       
+    }
+    
+}
+
+@keyframes transform-scuare {
+    0% {
+        border-radius: 50% ;
+    }
+    30% {
+        border-radius: 45% ;
+    }
+    40% {
+      border-radius: 40% ;
+    }
+    50% {
+        border-radius: 30% ;
+    }
+    65% {
+      border-radius: 20% ;
+    }
+    75% {
+        border-radius: 15% ;
+    }
+    100%  {
+        border-radius: 10% ;
+    }
+    last {
+        border-radius: 10%;
+    }
+}
+
+@keyframes move-down {
+    0% { top: -110px; }
+    100% { top: -30px; }
+}

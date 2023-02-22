@@ -1,0 +1,14 @@
+.categories-button {
+    background-color: aliceblue;   
+    font-weight: 600; 
+}
+
+.category-selected { 
+    border: 5px solid #83c1d9;
+}
+
+.categories-button:hover {
+    background-color: #83c1d9;
+    color: aliceblue;
+    
+}
