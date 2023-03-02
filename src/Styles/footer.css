@@ -59,14 +59,14 @@
 }
 
 .footer-icon {
-    color: aliceblue;
+    color: rgb(131,193,217);
     cursor: pointer;
     border-radius: 50%;
 }
 .footer-icon:hover {
-    box-shadow: 5px 5px 5px 0px rgba(131,193,217,.75);
--webkit-box-shadow: 5px 5px 5px 0px rgba(131,193,217,.75);
--moz-box-shadow: 5px 5px 5px 0px rgba(131,193,217,.75);
+    box-shadow: 5px 5px 5px 0px aliceblue;
+-webkit-box-shadow: 5px 5px 5px 0px aliceblue;
+-moz-box-shadow: 5px 5px 5px 0px aliceblue;
 }
 
 @media screen and (max-width: 1155px) {

@@ -29,7 +29,7 @@ export const Cards = ({ product }) => {
         <motion.div 
         className={`${isOpen ? "" : "d-none"} `}>
           <p className='text-uppercase maincard-card_text f-bold'><strong>{product.name}</strong></p>
-          <p className='maincard-card_text'>{product.desc}</p>
+          <p className='maincard-card_text'>{product.desc.slice(0,50)}</p>
           <Link to={"/product"}> <button onClick={() => localStorage.setItem("product", productString)}
           className='btn maincard-card_button m-2'>Mostrar Detalles</button> </Link>
         </motion.div>

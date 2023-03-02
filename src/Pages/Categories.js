@@ -29,22 +29,22 @@ export const Categories = () => {
         
         <div className='buttons d-flex justify-content-around my-3 flex-wrap'>
           
-          <button className={`${selected === "hogar"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
-            onClick={() => {setView("hogar")}}       
-            >Linea Hogar</button>
+          <button className={`${selected === "Categoria 1"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
+            onClick={() => {setView("Categoria 1")}}       
+            >Categoria 1</button>
           
-          <button className={`${selected === "plantas"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
-            onClick={() => {setView("plantas")}}
-            >Linea plantas</button> 
+          <button className={`${selected === "Categoria 2"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
+            onClick={() => {setView("Categoria 2")}}
+            >Categoria 2</button> 
   
-          <button className={`${selected === "ave"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
-            onClick={() => {setView("ave")}}
-            >linea ave</button>
+          <button className={`${selected === "Categoria 3"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
+            onClick={() => {setView("Categoria 3")}}
+            >Categoria 3</button>
 
               
-          <button className={`${selected === "animal"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
-            onClick={() => {setView("animal")}}
-          >linea animal</button>
+          <button className={`${selected === "Categoria 4"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
+            onClick={() => {setView("Categoria 4")}}
+          >Categoria 4</button>
   
           <button className={`${selected === "all" ? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
             onClick={() => {setView("all")}}

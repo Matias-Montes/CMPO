@@ -7,11 +7,11 @@ export const MainCards = ({ products }) => {
 
     const getProduct = () => {
         let shuffle = products.sort(() => Math.random() > .5 ? 1 : -2)
-        let ave = shuffle.filter((item) =>  item.category == "ave");
-        let hogar = shuffle.filter((item) =>  item.category == "hogar");
-        let animal = shuffle.filter((item) =>  item.category == "animal");
-        let plantas = shuffle.filter((item) =>  item.category == "plantas");        
-        let filterList = [ave[0], hogar[0], animal[0], plantas[0]]
+        let CategoriaUno = shuffle.filter((item) =>  item.category == "Categoria 1");
+        let CategoriaDos = shuffle.filter((item) =>  item.category == "Categoria 2");
+        let CategoriaTres = shuffle.filter((item) =>  item.category == "Categoria 3");
+        let CategoriaCuatro = shuffle.filter((item) =>  item.category == "Categoria 4");        
+        let filterList = [CategoriaUno[0], CategoriaDos[0], CategoriaTres[0], CategoriaCuatro[0]]
         console.log(filterList)
         return setHiProducts(filterList.sort(() => Math.random() - .5))
     }

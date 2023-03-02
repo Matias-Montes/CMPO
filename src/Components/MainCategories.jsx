@@ -10,7 +10,7 @@ export const MainCategories = ( {categories} ) => {
     <>
       <div className='d-flex-colums align-items-center'>
         <h2 className='maincards-tittle d-block text-center text-uppercase'>Categorias</h2>
-        <div className='d-flex justify-content-center flex-wrap p-4'>
+        <div className='d-flex justify-content-center flex-wrap p-4 h-50'>
           {categories.map((category) =>
             <><Link to={'/categories'} className="main-category_link">
               <motion.div

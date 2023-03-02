@@ -21,7 +21,7 @@ export const Footer = () => {
             </div>
           </div>
           <div className='footer-data_text footer-text d-flex flex-column justify-content-center align-item-center'>
-            <h3>Datos:</h3>
+            <h3><ins>Datos</ins> :</h3>
             <p>Alfredo Palacios 2644</p>
             <p>lomas del mirador - cp 1752</p>
             <p>buenos aires - argentina</p>
@@ -29,7 +29,7 @@ export const Footer = () => {
         </div>
         <div className='d-flex footer-container_rigth'>
           <div className='footer-contact-text footer-text d-flex flex-column'>
-            <h3>Contacto:</h3>
+            <h3><ins>Contacto</ins> :</h3>
             <span>Mail : </span>
             <p>info@cmpo.com.ar</p>
             <span>Teléfono :</span>
