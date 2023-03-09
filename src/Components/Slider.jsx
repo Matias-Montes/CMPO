@@ -18,7 +18,7 @@ export const Slider = () => {
         />
         <Carousel.Caption className="main-carousel_text">
           <h3 className="main-carousel_text">Linea Ferretera</h3>
-          <p>Excelente para talleres... </p>
+          
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -30,7 +30,7 @@ export const Slider = () => {
 
         <Carousel.Caption className="main-carousel_text">
           <h3>Linea Hogar</h3>
-          <p>Excelente para el hogar</p>
+          
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -42,7 +42,7 @@ export const Slider = () => {
 
         <Carousel.Caption className="main-carousel_text">
           <h3 className="main-carousel_text">Linea Primeros Auxilios</h3>
-          <p>excelente para la medica ¿?</p>
+          
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

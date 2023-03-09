@@ -23,8 +23,8 @@ export const Cards = ({ product }) => {
         onClick={() => (setIsOpen(!isOpen), setShowClick())}
         onMouseEnter={() => setShowClick(true)}
         onMouseLeave={() => (setIsOpen(), setShowClick())}
-        className={`text-center maincards-card_container mx-4 my-3`} key={product.ip}>
-        <motion.img className='text-center maincards-card_img' width="250px" height="250px" src={product.img}></motion.img>
+        className={`text-center maincards-card_container mx-3 my-3`} key={product.ip}>
+        <motion.img className='text-center maincards-card_img' width="200px" height="200px" src={product.img}></motion.img>
         
         <motion.div 
         className={`${isOpen ? "" : "d-none"} `}>

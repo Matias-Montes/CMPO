@@ -15,17 +15,18 @@
 }
 
 .maincards-tittle {
+    font-size: 2vw;
     padding: 10px;
     background-color: #83c1d9;
     font-weight: 800;
 }
 
 .maincards-container {    
-    height: 60vh;
+    height: 50vh;
 }
 
 .maincards-card_container {
-    width: 250px;
+    width: 200px;
     background: rgb(131,193,217);
     background: linear-gradient(0deg, rgba(131,193,217,1) 0%, rgba(255,255,255,1) 59%);
     border: 1px solid black;
@@ -105,7 +106,10 @@
        
     }
 
-
+    .maincards-tittle {
+        font-size: 4vw;
+     
+    }
 }
 
 @media screen and (max-width: 720px) {

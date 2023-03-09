@@ -17,11 +17,13 @@
 }
 
 .footer-data-logo {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 25%;
 }
+
+.footer-text_adress {
+    margin: 0
+}
+
 
 .footer-data_img {
     margin: 10px;

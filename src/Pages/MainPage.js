@@ -12,7 +12,7 @@ export const MainPage = () => {
       <Slider/>
       <MainImg/>
       <MainCards products={ products } />
-      <MainCategories categories={ categories }/>
+
     </>
     
   );

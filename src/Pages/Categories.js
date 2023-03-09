@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import '../Styles/categories.css'
 import { Cards} from '../Components'
 import { products } from '../data/data'
+import  documento  from '../data/test.pdf'
+ 
 
 export const Categories = () => {
 
@@ -29,35 +31,40 @@ export const Categories = () => {
         
         <div className='buttons d-flex justify-content-around my-3 flex-wrap'>
           
-          <button className={`${selected === "Categoria 1"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
-            onClick={() => {setView("Categoria 1")}}       
-            >Categoria 1</button>
+          <button className={`${selected === "Linea Ferretero"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
+            onClick={() => {setView("Linea Ferretero")}}       
+            >Linea Ferretero</button>
           
-          <button className={`${selected === "Categoria 2"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
-            onClick={() => {setView("Categoria 2")}}
-            >Categoria 2</button> 
+          <button className={`${selected === "Linea Cristal"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
+            onClick={() => {setView("Linea Cristal")}}
+            >Linea Cristal</button> 
   
-          <button className={`${selected === "Categoria 3"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
-            onClick={() => {setView("Categoria 3")}}
-            >Categoria 3</button>
+          <button className={`${selected === "Linea Hogar"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
+            onClick={() => {setView("Linea Hogar")}}
+            >Linea Hogar</button>
 
               
-          <button className={`${selected === "Categoria 4"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
-            onClick={() => {setView("Categoria 4")}}
-          >Categoria 4</button>
-  
-          <button className={`${selected === "all" ? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
-            onClick={() => {setView("all")}}
-            >Todos los Productos</button>
+          <button className={`${selected === "Linea Primeros Auxilios"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
+            onClick={() => {setView("Linea Primeros Auxilios")}}
+          >Linea Primeros Auxilios</button>
+
+<button className={`${selected === "Linea Veterinaria"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
+            onClick={() => {setView("Linea Veterinaria")}}
+          >Linea Veterinaria</button>
+
         </div>
 
         </div>   
 
-        <div className='d-flex justify-content-center align-items-center flex-wrap '>
+        <div className='categories-card_container d-flex justify-content-center align-items-center flex-wrap '>
           {filterList.map((product) => (
             <Cards product={product} />
           ))}
         </div>    
+
+        <div className='d-flex m-5'>
+          <h4>Hace <a href={documento} download={"catalogo_cmpo.pdf"}>Click Aqui</a> para descargar nuestro catalogo completo!</h4>
+        </div>
 
     </div>
   )

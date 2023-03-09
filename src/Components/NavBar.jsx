@@ -8,25 +8,19 @@ import "../Styles/navbar.css"
 
 export const NavBar = () => {
 
-  const [showName, setShowName] = useState()
+
   const [select, setSelect] = useState("inicio")
 
   return (
     <Navbar bg="dark" expand="lg">
       <Container fluid>
-        <Navbar.Brand onMouseEnter={() => setShowName(true)}
-        onMouseLeave={() => setShowName()}
+        <Navbar.Brand 
              href="/">
             <img 
             src="https://i.ibb.co/60wHtJ1/logo.png" 
             alt="CMPO logo" 
             className='navbar-logo_img mx-2' /></Navbar.Brand>
-        <div className={`${showName ? "" : 'd-none'} d-flex flex-column navbar-logo_animation `}>
-          <span className={`navbar-logo_text`}>compania</span>
-          <span className={`navbar-logo_text navbar-link_item-selected`}>manufacturera</span>
-          <span className={`navbar-logo_text`}>de plasticos</span>
-          <span className={`navbar-logo_text navbar-link_item-selected`}>del oeste</span>
-        </div>
+
         <Navbar.Toggle className='navbar-toggle' aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll d-flex flex-column">
           <Nav
