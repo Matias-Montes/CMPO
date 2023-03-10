@@ -31,26 +31,26 @@ export const Categories = () => {
         
         <div className='buttons d-flex justify-content-around my-3 flex-wrap'>
           
-          <button className={`${selected === "Linea Ferretero"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
-            onClick={() => {setView("Linea Ferretero")}}       
-            >Linea Ferretero</button>
+          <button className={`${selected === "Ferretero"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
+            onClick={() => {setView("Ferretero")}}       
+            >Ferretero</button>
           
-          <button className={`${selected === "Linea Cristal"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
-            onClick={() => {setView("Linea Cristal")}}
-            >Linea Cristal</button> 
+          <button className={`${selected === "Cristal"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
+            onClick={() => {setView("Cristal")}}
+            >Cristal</button> 
   
-          <button className={`${selected === "Linea Hogar"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
-            onClick={() => {setView("Linea Hogar")}}
-            >Linea Hogar</button>
+          <button className={`${selected === "Hogar"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
+            onClick={() => {setView("Hogar")}}
+            >Hogar</button>
 
               
-          <button className={`${selected === "Linea Primeros Auxilios"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
-            onClick={() => {setView("Linea Primeros Auxilios")}}
-          >Linea Primeros Auxilios</button>
+          <button className={`${selected === "Primeros Auxilios"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
+            onClick={() => {setView("Primeros Auxilios")}}
+          >Primeros Auxilios</button>
 
-<button className={`${selected === "Linea Veterinaria"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
-            onClick={() => {setView("Linea Veterinaria")}}
-          >Linea Veterinaria</button>
+<button className={`${selected === "Veterinaria"? showSelected : ""} btn categories-button me-2 text-uppercase m-2`} 
+            onClick={() => {setView("Veterinaria")}}
+          >Veterinaria</button>
 
         </div>
 

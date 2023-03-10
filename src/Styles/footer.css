@@ -4,8 +4,10 @@
     height: 15px;
 }
 .footer-container {
+    margin-top: 20px;
     flex-direction: row;
     padding: 20px;
+    
 }
 
 .footer-container_left {
@@ -39,16 +41,13 @@
 }
 
 .footer-data_text {
-    width: 50%;
+    width: 100%;
+    justify-content: center;
 }
 
 .footer-contact-text {
     width: 75%;
 } 
-
-.footer-icons {
-    width: 25%;
-}
 
 .footer-logo_text {
     text-transform: capitalize;
@@ -72,81 +71,48 @@
 }
 
 @media screen and (max-width: 1155px) {
-    .footer-container {
-        flex-direction: column;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .footer-container_left {
-        width: 100%
-    }
+   .footer-container{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
     
-    .footer-container_rigth {        
-        width: 100%;     
+   }
+   .footer-container_left{
+    width: 100%; 
+    flex-direction: column;
 
-    }
-    
-    .footer-data-logo {
-        width: 50%;
-    }
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   }
 
-    .footer-data_text {
-        width: 50%;
-        justify-content: center;
-        align-items: center;
-    }
+.footer-container_rigth {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
 
-    .footer-contact-text {
-        justify-content: center;
-        align-items: center;
-        width: 50%;
-    } 
+.footer-data_text {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
 
-    .footer-icons {        
-        justify-content: center;
-        align-items: center;
-        width: 50%;
-    }
- 
+.footer-data-logo {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
     
 }
 
 
-@media screen and (max-width: 794px) {
-    .footer-container_left {
-        flex-direction: column;
-    }
-    
-    .footer-container_rigth {        
-        flex-direction: column;
-
-    }
-    .footer-data-logo {
-        width: 100%;
-        margin: 10px;
-    }
-
-    .footer-data_text {
-        width: 100%;
-        margin: 10px;
-    }
-
-    .footer-contact-text {
-
-        width: 100%;
-        margin: 10px;
-    } 
-
-    .footer-icons {        
-            
-        width: 100%;
-        
-    }
-
+.footer-contact-text{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
-
-@media screen and (max-width: 402px) {
-    .footer-logo-expand {
-        display: none;
-    }
+  
 }

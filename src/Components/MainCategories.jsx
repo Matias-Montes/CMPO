@@ -9,17 +9,15 @@ export const MainCategories = ( {categories} ) => {
   return (
     <>
       <div className='d-flex-colums align-items-center'>
-        <h2 className='maincards-tittle d-block text-center text-uppercase'>Categorias</h2>
+        <h2 className='maincards-tittle d-block text-center text-uppercase'>Nuestras Lineas</h2>
         <div className='d-flex justify-content-center flex-wrap p-4 h-50'>
           {categories.map((category) =>
             <><Link to={'/categories'} className="main-category_link">
               <motion.div
                 key={category.id}
-                transition={{ duration: .5 }}
-                layout
                 onClick={() => localStorage.setItem("category", category.name)}
-                className={`text-center maincards-card_container mx-4 my-3`} >
-                <motion.img className='text-center maincards-card_img' width="225px" height="175px" src={category.img}></motion.img>
+                className={`text-center maincards-category_container mx-4 my-3`} >
+                <motion.img className='text-center categories-category_img' width="250px" height="200px" src={category.img}></motion.img>
 
                 <p className={"maincard-category_text"}>{category.name}</p>
 

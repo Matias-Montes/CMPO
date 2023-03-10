@@ -6,21 +6,18 @@ export const AboutUs = () => {
   return (    
     <section className='aboutus-section'> 
       <h2 className='product-tittles text-center mb-4 p-2'><strong> Quiénes Somos </strong> </h2>
-    <article className='aboutus-article mx-4'>
-      <div className='aboutus-div_img'><img className='aboutus-article_img' href={""}></img></div>
-      <div className='aboutus-div_text '>
+    <article className='aboutus-article mx-4 justify-content-center'>
+      
+      <div className='aboutus-div_text d-flex flex-column'>
       <h3 className='product-tittles text-center my-4 p-2'><strong> La Empresa </strong> </h3>
-      <p className='aboutus-article_text'>Lorem ipsum dolor sit amet. Est Quis quia eos fuga dolorem aut itaque possimus id voluptate dolores et error similique. Aut quaerat nihil a veniam numquam quo neque exercitationem.</p>
+      <p className='aboutus-article_text'>CMPO es una empresa que realiza y distribuye artículos de plástico de primera calidad. Ubicada en la zona oeste de buenos aires, pero con alcance a todo el país.</p>
 
-      <p className='aboutus-article_text'>Et nostrum quos et dolores veniam aut enim tempore est eaque aliquid. At optio dolore et repudiandae atque id quod dolorem sed obcaecati corporis! Vel reiciendis provident ut ullam explicabo sit deserunt tenetur qui adipisci consequatur nam quia optio est quisquam eius vel recusandae exercitationem.</p>
+      <p className='aboutus-article_text'>Cuenta con la experiencia y la infraestructura necesaria para atender sus necesidades, tanto para pequeños como para grandes proyectos. </p>
 
-      <p className='aboutus-article_text'>Aut accusantium delectus et illum quidem est nisi maiores ut inventore perspiciatis a doloremque repellat qui laborum omnis aut omnis delectus? Ea quos omnis et voluptate molestias quo doloribus velit.</p> 
+      <p className='aboutus-article_text'>Atención personalizada al cliente, lo que permite brindarle el mejor servicio para que obtenga un excelente producto y prestaciones.</p> 
       </div>
     </article>
-    
-    <span className='w-100 footer-top my-4'></span>
-    <img></img>
-      
+         
     </section>
   )
 }

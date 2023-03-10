@@ -6,7 +6,7 @@ import { FiMail } from 'react-icons/fi'
 
 export const Footer = () => {
   return (
-    <div className='w-100'>
+    <div className='w-100 mt-5'>
       <span className='w-100 footer-top '></span>
       <div className='w-100 d-flex footer-container'>
         <div className='footer-container_left d-flex '>
@@ -17,7 +17,7 @@ export const Footer = () => {
             /></a>
 
           </div>
-          <div className='footer-data_text footer-text d-flex  justify-content-between align-item-end'>
+          <div className='footer-data_text footer-text d-flex'>
             <MdLocationOn className='mt-3' size={"5rem"} />
             <div className='h-25 mt-3'>
               <p className='footer-text_adress'>Alfredo Palacios 2644</p>
@@ -30,16 +30,16 @@ export const Footer = () => {
           <div className='footer-contact-text footer-text d-flex flex-column'>
 
             <p> <FiMail className='mx-2' size={"1.5rem"} /> info@cmpo.com.ar</p>
-            
-          <div className='d-flex'>
-            <div className='d-flex flex-column justify-content-center align-items-center mx-2'>
-              <span>Whatsapp</span>
-              <a href="https://wa.me/5491160200470?text=Quisiera%20contactar%20contigo%20por%20tus%20productos" target="_blank"> <BsWhatsapp className='footer-icon m-2 m-2' size={50} /> </a>
-            </div>
-            <div className='d-flex flex-column justify-content-center align-items-center mx-2'>
-              <span>Instagram</span>
-              <a href='https://www.instagram.com/cmpo.productos.plasticos/' target='_blank'> <BsInstagram className='footer-icon m-2 m-2' size={50} /></a>
-            </div>
+
+            <div className='d-flex'>
+              <div className='d-flex flex-column justify-content-center align-items-center mx-2'>
+                <span>Whatsapp</span>
+                <a href="https://wa.me/5491160200470?text=Quisiera%20contactar%20contigo%20por%20tus%20productos" target="_blank"> <BsWhatsapp className='footer-icon m-2 m-2' size={50} /> </a>
+              </div>
+              <div className='d-flex flex-column justify-content-center align-items-center mx-2'>
+                <span>Instagram</span>
+                <a href='https://www.instagram.com/cmpo.productos.plasticos/' target='_blank'> <BsInstagram className='footer-icon m-2 m-2' size={50} /></a>
+              </div>
             </div>
           </div>
 

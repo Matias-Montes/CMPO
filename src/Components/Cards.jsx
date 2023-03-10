@@ -8,7 +8,7 @@ export const Cards = ({ product }) => {
   const [showClick, setShowClick] = useState()
 
   const variants = {
-    open: {scale: 1.3, y: -50 },    
+    open: {scale: 1.5 },    
   }
   
   const productString = JSON.stringify(product)
