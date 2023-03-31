@@ -31,11 +31,16 @@
 }
 
 .maincards-category_container { 
-    padding: 10px;
-    border: 7px double rgb(131,193,217);
+
+    padding: 10px 10px 0 10px;
+    border: 7px solid rgb(131,193,217);
 }
 
-.categories-category_img:hover {
-    width: 300px;
-    height:300px;
+.maincards-category_container:hover {
+    border-color: aliceblue;
+}
+
+.maincards-category_container:hover > .maincard-category_text {
+    background-color: #83c1d9;
+    color: aliceblue;
 }

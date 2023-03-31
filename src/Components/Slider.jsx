@@ -8,11 +8,12 @@ export const Slider = () => {
     setIndex(selectedIndex);
   };
 
-  return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item>
+  return (    
+    <Carousel className='carousel'
+    activeIndex={index} onSelect={handleSelect}>
+      <Carousel.Item className=''>
         <img
-          className="main-carousel_img w-100 "
+          className="main-carousel_img"
           src="https://i.ibb.co/jZyCQqc/Slider-1.jpg"
           alt="First slide"
         />
@@ -21,9 +22,9 @@ export const Slider = () => {
           
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className=''>
         <img
-          className="main-carousel_img w-100"
+          className="main-carousel_img"
           src="https://i.ibb.co/B2V1FvT/Slider-2.jpg"
           alt="Second slide"
         />
@@ -33,9 +34,9 @@ export const Slider = () => {
           
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className=''>
         <img
-          className="main-carousel_img w-100"
+          className="main-carousel_img"
           src="https://i.ibb.co/hMBzVkF/Slider-3.jpg"
           alt="Third slide"
         />
@@ -45,8 +46,30 @@ export const Slider = () => {
           
         </Carousel.Caption>
       </Carousel.Item>
+      <Carousel.Item className=''>
+        <img
+          className="main-carousel_img"
+          src="https://i.ibb.co/bFxnxfT/DSC-0269.jpg"
+          alt="First slide"
+        />
+        <Carousel.Caption className="main-carousel_text">
+          <h3 className="main-carousel_text">Linea Cristal</h3>
+          
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item className=''>
+        <img
+          className="main-carousel_img"
+          src="https://i.ibb.co/kcZV0HF/DSC-0262.jpg"
+          alt="First slide"
+        />
+        <Carousel.Caption className="main-carousel_text">
+          <h3 className="main-carousel_text">Linea Veterinaria</h3>
+          
+        </Carousel.Caption>
+      </Carousel.Item>
     </Carousel>
 
-    
+
   );
 }
