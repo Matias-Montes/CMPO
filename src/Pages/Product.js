@@ -18,7 +18,7 @@ export const Product = () => {
    
       <div className='w-100 product-container'>
 
-        <h2 className='product-tittles text-center mb-4 p-2'><strong> {showProduct.name} </strong> </h2>
+        <h2 className='product-tittles text-center mb-4 p-2'><strong> linea {showProduct.category} </strong> </h2>
 
         <div className='d-flex w-100 product-container_img my-3'>
         
@@ -42,6 +42,14 @@ export const Product = () => {
               ${image === showProduct.imgB? "product-img_selected" : ""}
               ${showProduct.imgB? "" : "d-none"}`}
               onClick={() => setImage(showProduct.imgB)} src={showProduct.imgB}></img>
+               <img className={`product-img product-img_mini w-25 h-25 m-2
+              ${image === showProduct.imgC? "product-img_selected" : ""}
+              ${showProduct.imgB? "" : "d-none"}`}
+              onClick={() => setImage(showProduct.imgC)} src={showProduct.imgC}></img>
+               <img className={`product-img product-img_mini w-25 h-25 m-2
+              ${image === showProduct.imgB? "product-img_selected" : ""}
+              ${showProduct.imgD? "" : "d-none"}`}
+              onClick={() => setImage(showProduct.imgD)} src={showProduct.imgD}></img>
 
           </div>
 
@@ -51,8 +59,6 @@ export const Product = () => {
             <div className='d-flex flex-column m-4'>          
               <h5 className='product-info_tittles'>Nombre del Producto</h5>
               <p>{showProduct.name}</p>
-              <h5 className='product-info_tittles'>Categoría</h5>
-              <p>{showProduct.category}</p>
               <h5 className='product-info_tittles'>Descripción</h5>
               <p>{showProduct.desc}</p>
             </div>

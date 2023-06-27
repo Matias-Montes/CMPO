@@ -49,7 +49,7 @@
     background: rgb(131,193,217);
     background: linear-gradient(0deg, rgba(131,193,217,1) 0%, rgba(255,255,255,1) 59%);
     border: 1px solid black;
-    border-radius: 100%;    
+    border-radius: 30%;    
 }
 
 .maincards-card_container:hover {
@@ -60,6 +60,7 @@
     border: 5px solid #83c1d9;
      
 }
+
 
 
 .maincard-card_click {
@@ -162,28 +163,25 @@
 
 @keyframes transform-scuare {
     0% {
-        border-radius: 50% ;
-    }
-    30% {
-        border-radius: 45% ;
-    }
-    40% {
-      border-radius: 40% ;
-    }
-    50% {
         border-radius: 30% ;
     }
-    65% {
+    30% {
+        border-radius: 25% ;
+    }
+    40% {
       border-radius: 20% ;
     }
-    75% {
+    50% {
         border-radius: 15% ;
     }
-    100%  {
-        border-radius: 10% ;
+    65% {
+      border-radius: 10% ;
+    }
+    100% {
+        border-radius: 5% ;
     }
     last {
-        border-radius: 10%;
+        border-radius: 5%;
     }
 }
 

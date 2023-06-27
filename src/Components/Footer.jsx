@@ -34,7 +34,7 @@ export const Footer = () => {
             <div className='d-flex'>
               <div className='d-flex flex-column justify-content-center align-items-center mx-2'>
                 <span>Whatsapp</span>
-                <a href="https://wa.me/5491160200470?text=Quisiera%20contactar%20contigo%20por%20tus%20productos" target="_blank"> <BsWhatsapp className='footer-icon m-2 m-2' size={50} /> </a>
+                <a href="https://wa.me/5491131309237?text=Quisiera%20contactar%20contigo%20por%20tus%20productos" target="_blank"> <BsWhatsapp className='footer-icon m-2 m-2' size={50} /> </a>
               </div>
               <div className='d-flex flex-column justify-content-center align-items-center mx-2'>
                 <span>Instagram</span>
