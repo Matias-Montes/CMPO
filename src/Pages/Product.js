@@ -30,23 +30,23 @@ export const Product = () => {
           </div>
 
           <div className='d-flex w-100 justify-content-center flex-wrap p-2'> 
-            <img className={`product-img product-img_mini w-25 h-25 m-2 
+            <img className={`product-img mini w-25 h-25 m-2 
               ${image === showProduct.img? "product-img_selected" : ""}`}
               onClick={() => setImage(showProduct.img)}
               src={showProduct.img}></img> 
-            <img className={`product-img product-img_mini w-25 h-25 m-2
+            <img className={`product-img mini w-25 h-25 m-2
               ${image === showProduct.imgA? "product-img_selected" : ""}
               ${showProduct.imgA? "" : "d-none"}`}
               onClick={() => setImage(showProduct.imgA)} src={showProduct.imgA}></img>
-            <img className={`product-img product-img_mini w-25 h-25 m-2
+            <img className={`product-img mini w-25 h-25 m-2
               ${image === showProduct.imgB? "product-img_selected" : ""}
               ${showProduct.imgB? "" : "d-none"}`}
               onClick={() => setImage(showProduct.imgB)} src={showProduct.imgB}></img>
-               <img className={`product-img product-img_mini w-25 h-25 m-2
+               <img className={`product-img mini w-25 h-25 m-2
               ${image === showProduct.imgC? "product-img_selected" : ""}
               ${showProduct.imgB? "" : "d-none"}`}
               onClick={() => setImage(showProduct.imgC)} src={showProduct.imgC}></img>
-               <img className={`product-img product-img_mini w-25 h-25 m-2
+               <img className={`product-img mini w-25 h-25 m-2
               ${image === showProduct.imgB? "product-img_selected" : ""}
               ${showProduct.imgD? "" : "d-none"}`}
               onClick={() => setImage(showProduct.imgD)} src={showProduct.imgD}></img>

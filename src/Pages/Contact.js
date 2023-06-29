@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import '../Styles/contact.css'
+import swal from 'sweetalert';
 
 export const Contact = () => {
   const form = useRef();
@@ -11,8 +12,15 @@ export const Contact = () => {
     emailjs.sendForm('service_ku2a3oq', 'template_dydpmgo', form.current, '2vX9I4k9rq8RI_j5C')
       .then((result) => {
           console.log(result.text);
+          swal({
+            title: "CMPO",
+            text: "Mensaje Enviado",
+            icon: "success",
+            button: "Aceptar",
+            timer: "3000"
+          })
       }, (error) => {
-          console.log(error.text);
+          console.log(error.text);          
       });
   };
 

@@ -250,7 +250,7 @@ export const products = [{
     },
     {
         id: 19,
-        name: "Maletin ?? Divisiones",
+        name: "Maletin 5 Divisiones",
         category: "Veterinaria",
         img: "https://i.ibb.co/GFLxLCn/Gif-veterinario-largo.gif",
         imgA: "https://i.ibb.co/2SjkNVD/largo-veterinaria-cerrado.png",
@@ -258,13 +258,13 @@ export const products = [{
         imgC: "https://i.ibb.co/Vx3B5FQ/largo-veterinaria-abierto.png",
         imgD: "https://i.ibb.co/nzdR4jJ/largo-veterinario-mano.png",
         desc: `Base Blanca y Tapa Cristal con cruz violeta.
-        Medidas: ??? x ??? x ?? mm. 
-        ?? Separadores violetas
+        Medidas: 250 x 130 x 60 Mm 
+        5 Separadores violetas
         `
     },
     {
         id: 20,
-        name: "Maletin ?? Divisiones",
+        name: "Maletin 5 Divisiones",
         category: "Primeros Auxilios",
         img: "https://i.ibb.co/5cthqQ7/Gif-primeros-auxilios-largo.gif",
         imgA: "https://i.ibb.co/vC93ScR/largo-primeros-cerrado.png",
@@ -272,13 +272,13 @@ export const products = [{
         imgC: "https://i.ibb.co/kGjrcDy/largo-primeros-abierto.png",
         imgD: "https://i.ibb.co/kBqwkN9/largo-primeros-mano.png",
         desc: `Base Blanca y Tapa Cristal con cruz Roja.
-        Medidas: ??? x ??? x ?? mm. 
-        ?? Separadores Rojas
+        Medidas: 250 x 130 x 60 Mm 
+        5 Separadores Rojas
         `
     },
     {
         id: 21,
-        name: "Maletin ?? Divisiones",
+        name: "Maletin 5 Divisiones",
         category: "Cristal",
         img: "https://i.ibb.co/M8dfTWF/Gif-cristal-largo.gif",
         imgA: "https://i.ibb.co/Hg1Hz3x/largo-cristal-cerrado.png",
@@ -286,13 +286,13 @@ export const products = [{
         imgC: "https://i.ibb.co/MnmyJPF/largo-cristal-abierto.png",
         imgD: "https://i.ibb.co/hyhmk5h/largo-cristal-mano.png",
         desc: `Base y Tapa Cristal.
-        Medidas: ??? x ??? x ?? mm. 
-        ?? Separadores Negros
+        Medidas: 250 x 130 x 60 Mm 
+        5 Separadores Negros
         `
     },
     {
         id: 22,
-        name: "Maletin ?? Divisiones Rojo",
+        name: "Maletin 5 Divisiones Rojo",
         category: "Ferretero",
         img: "https://i.ibb.co/bFW6D4D/Gif-Ferretero-rojo-largo.gif",
         imgA: "https://i.ibb.co/Yb9j3Xt/largo-ferretero-rojo-cerrado.png",
@@ -300,13 +300,13 @@ export const products = [{
         imgC: "https://i.ibb.co/wzfP9W3/largo-ferretero-rojo-abierto.png",
         imgD: "https://i.ibb.co/HKzhQrj/largo-ferretero-rojo-mano.png",
         desc: `Base Negra y Tapa Cristal.
-        Medidas: ??? x ??? x ?? mm. 
-        ?? Separadores Rojos
+        Medidas: 250 x 130 x 60 Mm 
+        5 Separadores Rojos
         `
     },
     {
         id: 23,
-        name: "Maletin ?? Divisiones Amarillo",
+        name: "Maletin 5 Divisiones Amarillo",
         category: "Ferretero",
         img: "https://i.ibb.co/FqpmtKh/Gif-Ferretero-amarillo-largo.gif",
         imgA: "https://i.ibb.co/SttfW2F/largo-ferretero-amarillo-cerrada.png",
@@ -314,13 +314,13 @@ export const products = [{
         imgC: "https://i.ibb.co/GxZShny/largo-ferretero-amarillo-abierta.png",
         imgD: "https://i.ibb.co/8MRz7cK/largo-ferretero-amarillo-mano.png",
         desc: `Base Negra y Tapa Cristal.
-        Medidas: ??? x ??? x ?? mm. 
-        ?? Separadores Amarillos
+        Medidas: 250 x 130 x 60 Mm 
+        5 Separadores Amarillos
         `
     },
     {
         id: 24,
-        name: "Maletin ?? Divisiones Lila",
+        name: "Maletin 5 Divisiones Lila",
         category: "Hogar",
         img: "https://i.ibb.co/vDCpzvd/Gif-hogar-lila-largo.gif",
         imgA: "https://i.ibb.co/Gc449M7/largo-hogar-lila-cerrado.png",
@@ -328,13 +328,13 @@ export const products = [{
         imgC: "https://i.ibb.co/qkPV6bw/largo-hogar-lila-abierto.png",
         imgD: "https://i.ibb.co/yqPBCJd/largo-hogar-lila-mano.png",
         desc: `Base y Tapa Lila.
-        Medidas: ??? x ??? x ?? mm. 
-        ?? Separadores Lilas
+        Medidas: 250 x 130 x 60 Mm 
+        5 Separadores Lilas
         `
     },
     {
         id: 25,
-        name: "Maletin ?? Divisiones Rosa",
+        name: "Maletin 5 Divisiones Rosa",
         category: "Hogar",
         img: "https://i.ibb.co/JyNwkTB/Gif-hogar-rosa-largo.gif",
         imgA: "https://i.ibb.co/3TTwLz7/largo-hogar-rosa-cerrado.png",
@@ -342,13 +342,13 @@ export const products = [{
         imgC: "https://i.ibb.co/Cv34jrZ/largo-hogar-rosa-abierto.png",
         imgD: "https://i.ibb.co/FWQmDB3/largo-hogar-rosa-mano.png",
         desc: `Base y Tapa Rosa.
-        Medidas: ??? x ??? x ?? mm. 
-        ?? Separadores Rosas
+        Medidas: 250 x 130 x 60 Mm 
+        5 Separadores Rosas
         `
     },
     {
         id: 26,
-        name: "Maletin ?? Divisiones Crema",
+        name: "Maletin 5 Divisiones Crema",
         category: "Hogar",
         img: "https://i.ibb.co/tstMwKT/Gif-hogar-piel-largo.gif",
         imgA: "https://i.ibb.co/yShBcSw/largo-hogar-piel-cerrado.png",
@@ -356,13 +356,13 @@ export const products = [{
         imgC: "https://i.ibb.co/wQGV9wt/largo-hogar-piel-abierto.png",
         imgD: "https://i.ibb.co/bbKdWK6/largo-hogar-piel-mano.png",
         desc: `Base y Tapa color Crema.
-        Medidas: ??? x ??? x ?? mm. 
-        ?? Separadores color Crema
+        Medidas: 250 x 130 x 60 Mm 
+        5 Separadores color Crema
         `
     },
     {
         id: 27,
-        name: "Maletin ?? Divisiones Turquesa",
+        name: "Maletin 5 Divisiones Turquesa",
         category: "Hogar",
         img: "https://i.ibb.co/DQLvrks/Gif-hogar-turquesa-largo.gif",
         imgA: "https://i.ibb.co/9cZjy8x/largo-hogar-turquesa-cerrado.png",
@@ -370,8 +370,8 @@ export const products = [{
         imgC: "https://i.ibb.co/9c7rwjS/largo-hogar-turquesa-abierto.png",
         imgD: "https://i.ibb.co/CVKr3Vp/largo-hogar-turquesa-mano.png",
         desc: `Base y Tapa Turquesas.
-        Medidas: ??? x ??? x ?? mm. 
-        ?? Separadores Turquesas
+        Medidas: 250 x 130 x 60 Mm 
+        5 Separadores Turquesas
         `
     },
 

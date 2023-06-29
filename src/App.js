@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'  
 import { NavBar, Footer } from "./Components";
 import { AboutUs, Categories, Contact, MainPage, Product, } from "./Pages";
+import swal from 'sweetalert';
 
 
 export const App = () => {

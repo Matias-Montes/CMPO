@@ -45,10 +45,11 @@
 }
 
 .maincards-card_container {
-    width: 200px;
+    width: 250px;
     background: rgb(131,193,217);
     background: linear-gradient(0deg, rgba(131,193,217,1) 0%, rgba(255,255,255,1) 59%);
     border: 1px solid black;
+    padding: 10px;
     border-radius: 30%;    
 }
 
