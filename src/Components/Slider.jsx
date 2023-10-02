@@ -14,7 +14,7 @@ export const Slider = () => {
       <Carousel.Item className=''>
         <img
           className="main-carousel_img"
-          src="https://i.ibb.co/jZyCQqc/Slider-1.jpg"
+          src="https://i.ibb.co/bJGPJTH/Sin-t-tulo-1.jpg"
           alt="First slide"
         />
         <Carousel.Caption className="main-carousel_text">
